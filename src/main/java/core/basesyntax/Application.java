@@ -1,6 +1,7 @@
 package core.basesyntax;
 
 public class Application {
+    //TODO Should be created 3 Ball classes from 1 Lottery class.
     public static void main(String[] args) {
         Lottery ball1 = new Lottery();
         System.out.println(ball1.getRandomBall().toString());

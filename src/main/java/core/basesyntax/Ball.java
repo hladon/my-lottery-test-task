@@ -1,6 +1,8 @@
 package core.basesyntax;
 
 public class Ball {
+
+    //TODO Good practice to make fields private or public(if it is needed by your logic). Currently, they are default.
     String ballColor;
     int ballNumber;
 
